@@ -1,0 +1,7 @@
+print("Hi, there. What is your name?")
+name = input()
+print("Hi,",name, "how old are you?")
+age = int(input())
+years = 100 - age
+old = int(years) + 2021
+print("Well", name,", In", old," you will be 100 years old")
